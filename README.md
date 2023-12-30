@@ -15,7 +15,7 @@ Exploratory Data Analysis (EDA) is a critical step in data analysis to understan
 
 ## Data Preparation
 - **Pandas Functions:**
-  - `hh`, `jjj`
+  - `read_csv()`, `head()`, `info()`, `describe()`, `isnull()`, `fillna()`, `dropna()`, `astype()`, `apply()` , etc
   
 - **Rank Correlation by Scipy:**
   - Utilizes `scipy.stats.spearmanr()` to calculate the correlation coefficient for ranked data.
