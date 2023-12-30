@@ -15,16 +15,7 @@ Exploratory Data Analysis (EDA) is a critical step in data analysis to understan
 
 ## Data Preparation
 - **Pandas Functions:**
-  -     `read_csv()`: Loads data from a CSV file into a Pandas DataFrame.
-  -     `head()`: Displays the first few rows of the DataFrame to check the data.
-  -     `info()`: Provides a summary of the DataFrame, including column data types and missing values.
--      `describe()`: Generates descriptive statistics of the DataFrame's numerical columns.
--     `isnull()`: Checks for missing or null values in the DataFrame.
--     `fillna()`: Fills missing values in the DataFrame with specified data.
- -     `dropna()`: Drops rows or columns with missing values from the DataFrame.
--     `astype()`: Converts the data type of a column to a specified type.
--     `apply()`: Applies a function along an axis of the DataFrame.
-  -     `corr()`: Computes pairwise correlation of columns using Pearson, Kendall, or Spearman method.
+  - `hh`, `jjj`
   
 - **Rank Correlation by Scipy:**
   - Utilizes `scipy.stats.spearmanr()` to calculate the correlation coefficient for ranked data.
