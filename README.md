@@ -2,7 +2,7 @@
 
 ## N.B. (Note on Plotly)
 
-Unfortunately, Plotly visuals may not display correctly here. For interactive plots and graphs, refer to the Kaggle notebook [here](https://www.kaggle.com/shauvikbrahma).
+Unfortunately, Plotly visuals may not display correctly here. For interactive plots and graphs, refer to the Kaggle notebook [here]([https://www.kaggle.com/shauvikbrahma](https://www.kaggle.com/shauvikbrahma/code?scroll=true)).
 
 ## About
 Exploratory Data Analysis (EDA) is a critical step in data analysis to understand the dataset, identify patterns, and derive initial insights before modeling.
