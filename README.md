@@ -1,26 +1,34 @@
 # Exploratory Data Analysis (EDA)
 
 ## About
-This repository contains an Exploratory Data Analysis (EDA) on a dataset. The analysis aims to explore, clean, and derive insights from the data.
+Exploratory Data Analysis (EDA) is a critical step in data analysis to understand the dataset, identify patterns, and derive initial insights before modeling.
 
-## Contents
-- [Overview](#overview)
-- [Data Preparation](#data-preparation)
-- [Exploration](#exploration)
-- [Findings](#findings)
-
-## Overview
-Provide a brief description of the dataset and its context here. Explain the goal and purpose of the analysis.
+## Content
+- Problem Statement
+- Load Libraries
+- Data Descriptions
+- Data Cleaning
+- Exploratory Data Analysis
+- Summary
 
 ## Data Preparation
-Explain any data cleaning, preprocessing, or transformations conducted on the dataset before analysis.
+- **Pandas Functions:**
+  - `read_csv()`: Loads CSV data into a Pandas DataFrame.
+  - `dropna()`: Removes missing values from the dataset.
+  - `corr()`: Computes pairwise correlation of columns using Pearson, Kendall, or Spearman method.
+  
+- **Rank Correlation by Scipy:**
+  - Utilizes `scipy.stats.spearmanr()` to calculate the correlation coefficient for ranked data.
 
 ## Exploration
-Describe the exploratory analysis performed, including visualizations, statistical summaries, and data insights.
+- **Libraries:**
+  - **Matplotlib:** Offers basic plotting functions for creating visualizations.
+  - **Seaborn:** Provides enhanced visualizations and statistical graphics.
+  - **Plotly:** Allows interactive and web-based visualizations.
 
-## Findings
-Summarize the key findings and insights derived from the analysis.
+## Projects
+- World Bank Data Analysis
+- Amazon Customer Behavior
+- Climate Change Analysis
 
----
 
-© 2023 Your Name. This project is licensed under the terms of the [MIT license](LICENSE).
